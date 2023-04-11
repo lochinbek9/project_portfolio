@@ -1,4 +1,37 @@
+.header{
+    &__container{
+        padding: 32px 0 40px 0;
+    }
 
-h1{
-    color: red;
+    &__navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__list{
+        display: flex;
+    }
+
+    &__item + &__item{
+        padding-left: 36px;
+    }
+
+    &__link{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #404040;
+    }
+    &__link--active{
+        color: #119FC3;
+    }
+
+    &__btn{
+        background-color: transparent;
+        border: none;
+    }
 }

@@ -5,10 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.min.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
-    <h1>salom dunyo </h1>
+   <!-- SITE-HEADER -->
+    <header id="header" class="header">
+        <div class="container header__container">
+            <nav class="header__navbar">
+                <a href="./index.html">
+                    <img src="./img/logo.svg" alt="logo">
+                </a>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#" class="header__link header__link--active">Главная</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Объявления</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Фотоальбом</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Прямые договоры</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Оплата коммунальных услуг</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Ответы на вопросы услуг</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Контакты</a>
+                    </li>
+                </ul>
+                <button class="header__btn">
+                    <img src="./img/search.png" alt="">
+                </button>
+            </nav>
+        </div>
+    </header>
+   <!-- END-SITE-HEADER -->
+
+   <main>
+    <section class="hero">
+        <div class="container hero__container">
+            <div class="hero__box">
+                <h1 class="hero__title">Управляющая компания ООО УК «Дом»</h1>
+                <p class="hero__text">
+                    Наша задача — оказание профессиональной помощи собственникам и нанимателям жилья в создании комфортных и безопасных условий проживания в многоквартирных домах.
+                </p>
+            </div>
+            <button class="hero__btn">
+                Наши дома
+            </button>
+        </div>
+    </section>
+
+    <section class="hero__desc">
+        <div class="container hero__desc__container">
+           <p class="hero__desc--text">
+            Основная цель деятельности Компании — обеспечение уюта и комфорта собственников на территории, поддержание сохранности, чистоты и порядка, а так же оперативное решение проблем собственников, устранение их замечаний и рассмотрение предложений по повышению качества обслуживания.
+           </p>
+           <ul class="hero__desc__list">
+            <li class="hero__desc__line"></li>
+            <li class="hero__desc__item hero__desc__item--active"></li>
+            <li class="hero__desc__item"></li>
+            <li class="hero__desc__item"></li>
+            <li class="hero__desc__line"></li>
+           </ul>
+          
+        </div>
+    </section>
+
+    <section class="hero__desc__box">
+        <div class="container">
+            <h2 class="hero__desc--title">Уважаемые жители!</h2>
+            <p class="hero__desc--block">Аварийная Диспетчерская служба ООО УК «Дом» работает круглосуточно, без выходных, телефон - +7 920 317-21-41</p>
+           </div>
+    </section>
+    <section class="services">
+        <div class="services__container container"> 
+            <h2 class="services__title">Сервис для потребителей</h2>
+            <p class="services__text">
+                С помощью сайта вы можете передать показания электросчётчика, связаться с управляющей компанией, написать обращение, оставить отзыв. Это удобно и современно!
+            </p>
+            <ul class="services__list"> 
+                <li class="services__item">
+                    <img src="./img/services__icon.png" alt="">
+                    <h3 class="services__desc">Передать показания</h3>
+                    <p class="services__pararaph">
+                        Показания принимаются с 23 по 25 число каждого месяца.Просим ежемесячно передавать показания
+                    </p>
+                    <a href="#" class="services__link">Подробнее</a>                    
+                </li>
+                <li class="services__item">
+                    <img src="./img/services__icon2.png" alt="">
+                    <h3 class="services__desc">Заявка в УК</h3>
+                    <p class="services__pararaph">
+                        Вы всегда можете обратиться к нам. Постараемся быстро помочь! Мы стараемся максимально помочь
+                    </p>
+                    <a href="#" class="services__link">Подробнее</a>
+                </li>
+                <li class="services__item">
+                    <img src="./img/services__icon3.png" alt="">
+                    <h3 class="services__desc">Отзывы клиентов</h3>
+                    <p class="services__pararaph">
+                        Будем рады услышать от вас отзывы о нашей деятельности. Обращаем ваше внимание, отзывы о…
+                    </p>
+                    <a href="#" class="services__link">Подробнее</a>
+                </li>
+                <li class="services__item">
+                    <img src="./img/services__icon4.png" alt="">
+                    <h3 class="services__desc">О нас</h3>
+                    <p class="services__pararaph">
+                        ООО УК «Дом» создано 07 июня 2022 года как управляющая и эксплуатирующая организация…
+                    </p>
+                    <a href="#" class="services__link">Подробнее</a>
+                </li>
+            </ul>
+            <div class="services__line"></div>
+        </div>
+    </section>
+       
+    <section class="stend">
+        <div class="stend__contaner container">
+            <h2 class="stend__title">
+                Информационный стенд
+            </h2>
+        </div>
+    </section>
+   </main>
     <script src="./js/main.js"></script>
 </body>
 </html>

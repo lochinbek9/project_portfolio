@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 html{
@@ -13,7 +15,7 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1312px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
@@ -21,7 +23,7 @@ body{
 
 .visually-hidden {
 	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px 1px 1px 1px);
 	clip: rect(1px, 1px, 1px, 1px);
 	padding:0 !important;
 	border:0 !important;
@@ -29,4 +31,6 @@ body{
 	width: 1px !important; 
 	overflow: hidden;
 }
+
+
 
